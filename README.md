@@ -2,26 +2,24 @@
 
 neural network model for recognizing fires and smoke in production and storage facilities
 
+**status** in early development...
+
+![showcase](./gitdocs/showcase.png)
+
 ## used technologies
 
 - python
 - yolo v8
 - opencv2
 
-powered by neovim
-
-## requirements
-
-- ultralytics
-- cvzone
-- psutil
-- GPUtil
+- powered by neovim
 
 ## installation
 
 ```bash
 git clone https://github.com/mishkafreddy2009/fsdet.git
 cd fsdet
+# create envoriment
 pip install -r requirements.txt
 ```
 ## usage
