@@ -2,8 +2,6 @@
 
 neural network model for recognizing fires and smoke in production and storage facilities
 
-**status** in early development...
-
 ![showcase](./gitdocs/showcase.png)
 
 ## used technologies
@@ -37,3 +35,7 @@ python main.py -v <video file path>
 # if you have both
 python main.py --model <model path> -v <video file path>
 ```
+
+## status
+
+in early development...
