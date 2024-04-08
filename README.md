@@ -42,6 +42,7 @@ python main.py --model <model path> -v <video file path>
 
 ## todo
 - [ ] train new main model (best96eps_2dt) to 200 epochs and see what it looks like;
+- [ ] attach metrics from new train;
 - [ ] collect new selfmade dataset;
 - [ ] markup new dataset;
 - [ ] train to 100 epochs new model;
