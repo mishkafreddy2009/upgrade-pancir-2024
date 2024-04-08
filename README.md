@@ -41,9 +41,7 @@ python main.py --model <model path> -v <video file path>
 ```
 
 ## todo
-- [ ] train new main model (best96eps_2dt) to 200 epochs;
-
-if 200 epochs still looking bad:
-    - [ ] collect new selfmade dataset;
-    - [ ] markup new dataset;
-    - [ ] train to 100 epochs new model;
+- [ ] train new main model (best96eps_2dt) to 200 epochs and see what it looks like;
+- [ ] collect new selfmade dataset;
+- [ ] markup new dataset;
+- [ ] train to 100 epochs new model;
