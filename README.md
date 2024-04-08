@@ -9,8 +9,6 @@ neural network model for recognizing fires and smoke in production and storage f
 - opencv2
 - kaggle vm
 
-powered by neovim
-
 ## screenshot
 
 ![showcase](./gitdocs/showcase.png)
@@ -20,7 +18,8 @@ powered by neovim
 ```bash
 git clone https://github.com/mishkafreddy2009/fsdet.git
 cd fsdet
-# create envoriment
+python -m venv .venv
+source ./.venv/bin/activate
 pip install -r requirements.txt
 ```
 ## usage
@@ -42,3 +41,5 @@ python main.py --model <model path> -v <video file path>
 ## status
 
 in early development...
+
+codded by neovim
