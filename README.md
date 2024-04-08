@@ -9,6 +9,8 @@ neural network model for recognizing fires and smoke in production and storage f
 - opencv2
 - kaggle vm
 
+> codded in neovim <3
+
 ## screenshot
 
 ![showcase](./gitdocs/showcase.png)
@@ -41,5 +43,3 @@ python main.py --model <model path> -v <video file path>
 ## status
 
 in early development...
-
-codded by neovim
