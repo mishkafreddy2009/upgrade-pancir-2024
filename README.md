@@ -2,15 +2,18 @@
 
 neural network model for recognizing fires and smoke in production and storage facilities
 
-![showcase](./gitdocs/showcase.png)
-
 ## used technologies
 
 - python
 - yolo v8
 - opencv2
+- kaggle vm
 
-- powered by neovim
+powered by neovim
+
+## screenshot
+
+![showcase](./gitdocs/showcase.png)
 
 ## installation
 
