@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Fire', 'Smoke']
+
+roboflow:
+  workspace: nautilus-30vxq
+  project: smoke-and-fire-pyqf4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nautilus-30vxq/smoke-and-fire-pyqf4/dataset/1
