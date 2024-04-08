@@ -40,6 +40,10 @@ python main.py -v <video file path>
 python main.py --model <model path> -v <video file path>
 ```
 
-## status
+## todo
+- [ ] train new main model (best96eps_2dt) to 200 epochs;
 
-in early development...
+if 200 epochs still looking bad:
+    - [ ] collect new selfmade dataset;
+    - [ ] markup new dataset;
+    - [ ] train to 100 epochs new model;
