@@ -9,7 +9,7 @@ neural network model for recognizing fires and smoke in production and storage f
 - opencv2
 - kaggle vm
 
-> coded in neovim :-)
+> coded in neovim
 
 ## screenshot
 
@@ -40,9 +40,10 @@ python main.py -v <video file path>
 python main.py --model <model path> -v <video file path>
 ```
 
-## todo
-- [ ] train new main model (best96eps_2dt) to 200 epochs and see what it looks like;
-- [ ] attach metrics from new train;
-- [ ] collect new selfmade dataset;
-- [ ] markup new dataset;
-- [ ] train to 100 epochs new model;
+## todos
+- [x] train new model to 200 epochs and see what it looks like;
+> upd: that looks so sad...
+- [ ] train another new model;
+    - [ ] collect new selfmade dataset;
+    - [ ] markup new dataset;
+    - [ ] train to 100 epochs;
