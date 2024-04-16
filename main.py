@@ -60,6 +60,7 @@ def main():
     model = YOLO(config.main_model) # set default yolo model
     classnames = ["Fire", "Smoke"]
     cap = cv2.VideoCapture(config.video) # set default testing video
+    # cap = cv2.VideoCapture(0) # set default testing video
 
     if args["model"]:
         model = YOLO(args["model"])
@@ -90,7 +91,7 @@ def main():
         show_info(frame, "CPU", cpu_usage, 0, 150)
         show_info(frame, "RAM", ram_usage, 0, 200)
 
-        cv2.imshow("firesmoke detection", frame)
+        cv2.imshow("fsdet", frame)
 
         if cv2.waitKey(1) & 0xFF == ord("q"): 
             break
