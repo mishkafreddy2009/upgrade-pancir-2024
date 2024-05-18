@@ -1,6 +1,10 @@
-# fsdet
+# upgrade-pancir-2024
 
-neural network model for recognizing fires and smoke in production and storage facilities
+solution for "Fire and smoke detection in production and storage facilities" case from Pancir company at hackathon "Upgrade: My first hackathon".
+
+## problem
+
+today's smoke detectors are not the best, so we need an additional verification layer to prevent fires in various industrial facilities.
 
 ## used technologies
 
@@ -37,11 +41,3 @@ python main.py -v <video file path>
 # if you have both
 python main.py --model <model path> -v <video file path>
 ```
-
-## todos
-- [x] train new model to 200 epochs and see what it looks like;
-> upd: that looks so sad...
-- [ ] train another new model;
-    - [ ] collect new selfmade dataset;
-    - [ ] markup new dataset;
-    - [ ] train to 100 epochs;
