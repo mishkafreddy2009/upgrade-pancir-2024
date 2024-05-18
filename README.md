@@ -1,6 +1,6 @@
 # upgrade-pancir-2024
 
-solution for "Fire and smoke detection in production and storage facilities" case from Pancir company at hackathon "Upgrade: My first hackathon".
+AI solution for "Fire and smoke detection in production and storage facilities" case from Pancir company at hackathon "Upgrade: My first hackathon".
 
 ## problem
 
