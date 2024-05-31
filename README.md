@@ -9,9 +9,8 @@ today's smoke detectors are not the best, so we need an additional verification 
 ## used technologies
 
 - python
-- yolo v8
-- opencv2
-- kaggle vm
+  - yolo v8
+  - opencv
 
 ## screenshot
 
